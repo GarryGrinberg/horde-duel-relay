@@ -1,0 +1,10 @@
+{
+  "name": "horde-duel-relay",
+  "version": "1.0.0",
+  "description": "Horde Duel's online relay: pairs players by room code and passes their inputs along.",
+  "main": "server.js",
+  "private": true,
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "ws": "^8.18.0" }
+}

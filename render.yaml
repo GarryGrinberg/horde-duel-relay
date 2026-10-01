@@ -1,0 +1,10 @@
+# Render Blueprint: one free web service for Horde Duel's online relay (its own project, nothing shared with GG33)
+services:
+  - type: web
+    name: horde-duel-relay
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /
+    autoDeploy: true
