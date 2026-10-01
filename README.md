@@ -4,5 +4,5 @@ Pairs players by a 5-digit room code and passes their inputs along. The match it
 (lockstep), so the server only forwards small messages. Plain Node + `ws`, no database, no secrets.
 
 Run locally: `npm install && node server.js` (port 8787, or `PORT`).
-Deploy on Render: New → Blueprint, pick this repo (uses `render.yaml`: a free web service named `horde-duel-relay`).
+Deploy on Render: New → Blueprint, pick this repo (uses `render.yaml`: a free web service named `horde-duel-relay-va` in Virginia, near the players).
 The free plan sleeps after 15 minutes without traffic; the game wakes it when you open Play a friend.
